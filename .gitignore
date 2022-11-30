@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Token files
+*.token
+
+# OtherDirs
+.idea/
