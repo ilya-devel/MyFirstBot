@@ -14,5 +14,5 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def user_choice(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
-    await query.answer()
+    # await query.answer()
     await query.edit_message_text(text=f'Selected: {query.data}')
